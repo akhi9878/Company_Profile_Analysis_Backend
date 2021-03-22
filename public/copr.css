@@ -1,0 +1,533 @@
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.form-control {
+	box-shadow: none;		
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.navbar {
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #dfe3e8;
+	border-radius: 0;
+}
+
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+}
+
+.navbar .navbar-brand {
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+}
+
+.navbar .navbar-brand b {
+	color: black;		
+}
+
+.navbar .form-inline {
+	display: inline-block;
+}
+
+.navbar a {
+	color: #888;
+	font-size: 24px;
+}
+
+.navbar .sign-up-btn {
+	min-width: 110px;
+	max-height: 36px;
+}
+
+.navbar .dropdown-menu {
+	color: #999;
+	font-weight: normal;
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px gray;
+}
+
+.navbar a, .navbar a:active {
+	color: #888;
+	padding: 8px 20px;
+	background: transparent;
+	line-height: normal;
+}
+
+.navbar .navbar-form {
+	border: none;
+}
+
+.navbar .action-form {
+	width: 280px;
+	padding: 20px;
+	left: auto;
+	right: 0;
+	font-size: 14px;
+}
+
+.navbar .action-form a {		
+	color: black;
+	padding: 0 !important;
+	font-size: 14px;
+}
+
+.navbar .action-form .hint-text {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.navbar .btn-primary, .navbar .btn-primary:active {
+	color: #fff;
+	background: gray !important;
+	border: none;
+}	
+
+.navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+	color: #fff;
+	background: #354254 !important;
+}
+
+.navbar .social-btn .btn, .navbar .social-btn .btn:hover {
+	color: #fff;
+	margin: 0;
+	padding: 0 !important;
+	font-size: 13px;
+	border: none;
+	transition: all 0.4s;
+	text-align: center;
+	line-height: 34px;
+	width: 47%;
+	text-decoration: none;
+}
+
+.navbar .social-btn .facebook-btn {
+	background: #507cc0;
+}
+
+.navbar .social-btn .facebook-btn:hover {
+	background: #4676bd;
+}
+
+.navbar .social-btn .twitter-btn {
+	background: #64ccf1;
+}
+
+.navbar .social-btn .twitter-btn:hover {
+	background: #4ec7ef;
+}
+
+.navbar .social-btn .btn i {
+	margin-right: 5px;
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+}
+
+.navbar a span{
+	color:darkblue;
+}
+
+.navbar a:active span{
+	color:yellow;
+}
+
+.navbar a:hover span{
+	color:red;
+}
+
+.or-seperator {
+	margin-top: 32px;
+	text-align: center;
+	border-top: 1px solid #e0e0e0;
+}
+
+.or-seperator b {
+	color: #666;
+	padding: 0 8px;
+	width: 30px;
+	height: 30px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 26px;
+	background: #fff;
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	position: relative;
+	top: -15px;
+	z-index: 1;
+}
+
+.navbar .action-buttons .dropdown-toggle::after {
+	display: none;
+}
+
+.form-check-label input {
+	position: relative;
+	top: 1px;
+}
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 100vw;
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+#type{
+	min-height:300px;
+	padding-top:60px;
+	padding-bottom:20px;
+    background:url('https://cdn.crediwatch.com/images/CityscapeBG.svg'); 
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.tablink {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 21px;
+	width: 50%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding-top:90px;
+  text-align: center;
+}
+
+.container2{
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.container1{
+    width:40%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.container0{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.containe0{
+	background:white;
+	padding:20px 60px 20px 60px ;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.container{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#type .box{
+background:white;
+color:black;
+width:50%;
+padding:18px;
+float:left;
+font-family:cursive;
+font-size:21px;
+border:1px solid skyblue;
+}
+
+#Company {}
+#Individual{}
+		
+
+aside#sidebar{
+	float:right;
+    width:25%;
+}
+
+aside#sidebar img{
+	width:100%;
+	height:300px;
+}
+
+article#main-col{
+	margin-top:50px;
+	float:left;
+    width:70%;	
+}
+
+article#main-col p{
+	font-size:20px;
+}
+
+
+#team{
+	margin-top:60px;
+	margin-bottom:30px;
+}
+
+#team .box{
+    float:left;
+    text-align: center;
+    width:33%;
+    padding:20px;
+}
+
+#team .box img{
+    height:100px;
+    width:100px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:50%;
+}
+
+.card {
+  background-color: transparent;
+  width: 100%;
+  height: 210px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding:18px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.fa-map-marker{
+	color:white;
+}
+
+
+.fa-phone{
+	color:white;
+}
+
+
+.fa-envelope-o{
+	color:white;
+}
+
+aside.contactInfo{
+	margin-top:20px;
+	float:left;
+    width:40%;
+}
+
+article.contactForm{
+	margin-top:20px;
+	float:right;
+    width:45%;	
+	padding:20px 50px 20px 50px;
+	border-radius:60px;
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+
+
+.container .contactInfo .box .icon1 {
+    min-width: 60px;
+    height: 60px;
+    background: #00bcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text1 {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text1 h4 {
+    color: #00bcd4;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    Left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 5px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
+    color: #00bcd4;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 160px;
+    background: #00bcd4;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+footer{
+    padding:8px;
+    margin-top:50px;
+    color:#262626;
+    text-align: center;
+	font-family:Arial;
+	font-size:18px;
+}
+
+@media (min-width: 1200px){
+	.form-inline .input-group {
+		width: 300px;
+		margin-left: 30px;
+	}
+}
+
+@media (max-width: 768px){
+	.navbar .dropdown-menu.action-form {
+		width: 100%;
+		padding: 10px 15px;
+		background: transparent;
+		border: none;
+	}
+	.navbar .form-inline {
+		display: block;
+	}
+	.navbar .input-group {
+		width: 100%;
+	}
+	.container1,.container0,.container2,.container,.containe0{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+	}
+	#home{
+	display:none;
+	}
+	#type .box{
+		float:left;
+		width:50%;
+	}
+	#team .box{
+	float:none;
+	width:100%;
+	}
+	article#main-col,
+	aside#sidebar,
+	article.contactForm,
+	aside.contactInfo{
+	margin:auto;
+    float:none;
+    width:100%;
+  }
+}
+
+
+
+ 

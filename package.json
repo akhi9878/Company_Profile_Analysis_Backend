@@ -1,0 +1,28 @@
+{
+  "name": "UI",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akhilesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.19",
+    "request": "^2.88.2",
+    "sentiment": "^5.0.2"
+  }
+}

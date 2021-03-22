@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Company Details</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="main.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".profile .icon_wrap").click(function(){
+			  $(this).parent().toggleClass("active");
+			  $(".notifications").removeClass("active");
+			});
+
+			
+		});
+	</script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="navbar">
+    <div class="navbar_left">
+      <div class="logo">
+	  <img src="https://www.insightsforprofessionals.com/getmedia/52ce6e7a-1969-4b10-8ad5-687105863998/zensar-logo-square?maxsidesize=350&resizemode=force" alt="logo" width=150 height=75>	
+      </div>
+    </div>
+
+    <div class="navbar_right">
+ 
+      <div class="profile">
+        <div class="icon_wrap">
+		<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8HBhAQEg8NERUSEhITDw0XDw8QDxMQFRUWFhURExMYHSggGBolHRYWITEjKCkrNi4uFx8zODUtNygwLisBCgoKDg0OFxAQGi0lHx0tKy0tLS0tKy0tLS0tLS0tLSstKy0tLS0tLSsrLSsrLS0tLS0rLTcrMistLS0tNysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEBAAMBAQEAAAAAAAAAAAAABQIEBgMBB//EADcQAQABAgQDBAgFAwUAAAAAAAABAgMEBREhEjFRQXGRwRMiUmGBobHhMmJy0fAUI4IVJDRCwv/EABgBAQEBAQEAAAAAAAAAAAAAAAADAgEE/8QAHREBAQEAAgIDAAAAAAAAAAAAAAECETEDQRIhUf/aAAwDAQACEQMRAD8A/RAHpSAAAAAAAAAAAZUUzXOkRMz0iNZBiNy1ll252RT3z5Q2qMm61+FPnLN1HeKkirisDZwlrWZuTPZGsazPglOy8lnAA64AAAAAAAAAAAAAAAAAAA+xGs6Rv0gHx74bC14mfVjb2p2p8VDBZVpHFc+FHZ8VWmIpjSI09yd3+NTKdh8ooo3qmap6cqVC3bpt06RERHSI0ZCdtrfAA4JucYWq9TFVO/DE60+7rCI61oY/Lov61U6RV8p71M74+qzYgjKuibdcxMTExzhiqwAAAAAAAAAAAAAAAAAALmV4L0NEV1R608vyx070zLrPp8ZTE8o3nuj+Q6RPd9N5gAk0AAAAAA1MwwcYq3t+KPwz5S56Y0nydYg5xZ9FitY5VRr8e3yUxfTOo0AFWAAAAAAAAAAAAAAAAFTIqf7tc9IiPGZ/ZZSMh5XP8fNXQ32pnoAZdAAAAAAEvPqdbNE9KtPGPsqJ2ef8SP1x9Jaz3HL0hgLpgAAAAAAAAAAAAAAAK2Qzvc/x/wDSui5FP9+uPyx9futIb7Uz0AMugAAAAACbnk/7Wn9cfSVJKz6f7dEe+Z+X3az3HL0jgLpgAAAAAAAAAAAAAAAKOSRP9VM6TpwzGum2usdq41su0/oqNPZ+fa2UNXmqToAZdAAAAAAEnPYmeDadI4tZ027FZhe09FVry0nXu0dl4rlcqEch6EwAAAAAAAAAAAAAAAF7Ja+LBadKpjz82+k5Fc/HT3TH0nyVkNdqToAZdAAAAAAGtmNfBga592njt5tlOzu5w4WKfaqjwjf9nZ25UMB6EwAAAAAAAAAAAAAAAGVuubdcVRrtOrqqZ4qdXJuiyu76XBU+71Z+H20T8k9tZbYCTYAAAAAA5nG3fS4quddtZiO6NnQ4q76HD1VdInTv7HLqeOe2dACrAAAAAAAAAAAAAAAAApZJf4Ls0T/23jvj+fJNfYmaZ1jaY5S5ZzHY6weOEuzew1NU85jfvezzqAAAAAMa6uCiZ6RMgmZ3f0oi3HbvV3dn89yOyuXJu1zVPOebFfM4idoA04AAAAAAAAAAAAAAAAATyB0uAjhwVv8ATHz3bDC1TwWqY6REeEM3mqoAAAAxuRxUTHWJhkA5KOQzvU8F6qOlUx82D0pAAAAAAAAAAAAAAAAAACrlGEovW5qqp10q0jnptEdnxSnR5Za9FgqY67z8d2N36ay2gEWwAAAAAEzNsJRFiquI0q1iZnffWdJ2+KK6jE2/TYeqnrEx8exy6uL9MaAFGQAAAAAAAAAAAAG1h8Bcv8qdI9qdoct4dar1sYevET6tMz7+UeKxh8qot71evPhT4N+mIpjSNI9zF8n478U3DZRTTvXPF+WNqfupgnba3IAOAAAAAAAn4vK6b0zVTPDM7z20zPcoDsvA5nEYSvD/AIqdvajenxeDrZ3aOIyy3e3iOCescvjCk8n6x8UAbuIy25Z7OKOsc/BptyyuPgDrgAAAAM7Vqq9XpTEzP85q2GyiKd651/LG0ePazdSOycpNu3Vdq0piZnpEN/D5RVX+OYp90bz+yzbt026dIiIjpEaMk7u+mplrYfA27HKnf2p3lsgw0AAAAAAAAAAAAAAAAPC/hLeIj1qY7+U+L3ARr+TzG9FWv5Z5+Kfes1WatKqZj6fCXUvlVMV06TETHSd4bm6zcuTFvE5TRc3onhnpzp+yTiMPXh69Ko06T2T3SpNSs2cPIBpx1GHw9OHt8NMadZ7ZnrL1B5lQAAAAAAAAAAAAAAAAAAAAAAABhdt03aJiqImJ7GYCd/o9vrX4x+wojvyrnEAHHQAAAAAAAAAAAAAAAAAAAAAAAAAAAH//2Q==
+       " alt="CHRO">
+          <span class="name">Akhilesh</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+
+        <div class="profile_dd">
+          <ul class="profile_ul">
+		   <li><a class="settings" href="#"><span class="picon"><i class="fas fa-cog"></i></span>Change Password</a></li>
+           <li><a class="logout" href="/logout"><span class="picon"><i class="fas fa-sign-out-alt"></i></span>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    
+  <div class="s01">
+      <form action="/homes.html/details" method="POST">
+        <fieldset>
+          <legend>Find the information about Company or Individual</legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input id="search" name="cname" type="text" placeholder="Enter Company or Individual Name" />
+          </div>
+         <div class="input-field second-wrap">
+		        <select id="location" name="opt" type="text" class="form-control" required>
+										<option>COMPANY</option>
+										<option>DIRECTOR</option>
+									</select>
+            
+          </div>
+        
+          <div class="input-field third-wrap">
+            <input class="btn-search" type="submit">
+          </div>
+        </div>
+      </form>
+    </div>
+</div>
+<footer>
+        <p>All Rights Reserved &copy; Zensar Technologies 2021</p>
+		 </footer>
+
+ 
+</body>
+</html>

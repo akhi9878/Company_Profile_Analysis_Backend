@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>COMPANY PROFILE ANALYSIS</title>
+<link rel="icon" type="icon/png" href="https://www.insightsforprofessionals.com/getmedia/52ce6e7a-1969-4b10-8ad5-687105863998/zensar-logo-square?maxsidesize=350&resizemode=force">	
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="copr.css">
+<script src="./javascripts/main.js"></script>
+<script>
+$(document).on("click", ".action-buttons .dropdown-menu", function(e){
+	e.stopPropagation();
+});
+</script>
+
+
+</head> 
+<body>
+<nav class="navbar navbar-expand-lg navbar-light ">
+	<img src="https://www.insightsforprofessionals.com/getmedia/52ce6e7a-1969-4b10-8ad5-687105863998/zensar-logo-square?maxsidesize=350&resizemode=force" alt="CompanyLogo" width=150 height=75>	
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">		
+		<div class="navbar-nav ml-auto action-buttons">
+				<div class="nav-item dropdown">
+				<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4"><span class="col">LOGIN</span></a>
+                <div class="dropdown-menu action-form">
+					<form action="/log" method="post">
+						<p class="hint-text">Sign in with your social media account</p>
+						<div class="form-group social-btn clearfix">
+							<a href="#" class="btn btn-secondary facebook-btn float-left"><i class="fa fa-facebook"></i> Facebook</a>
+							<a href="#" class="btn btn-secondary twitter-btn float-right"><i class="fa fa-twitter"></i> Twitter</a>
+						</div>
+						<div class="or-seperator"><b>or</b></div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Enter Email address" name="email" id="email" required="required">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" placeholder="Enter Password" name="password" id="password" required="required">
+						</div>
+						<input type="submit" class="btn btn-primary btn-block" value="Login">						
+					</form>
+                </div>
+			</div>
+			<div class="nav-item dropdown">
+				<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4"><span class="col">REGISTER</span></a>
+                <div class="dropdown-menu action-form">
+					<form action="/reg" method="post">
+						<p class="hint-text">Fill in this form to create your account!</p>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Enter Email address" id="email" name="email" required="required">
+							<div id="valid"></div>
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" placeholder="Enter Password" id="password" name="password" value="" required="required">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" placeholder="Confirm Password" id="cpassword" name="cpassword" required="required">
+						</div>
+						<div class="form-group">
+							<label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
+						</div>
+						<input type="submit" class="btn btn-primary btn-block" value="Sign up">
+					</form>
+				</div>
+			</div>
+        </div>
+	</div>
+</nav>
+<section id="type">
+<div class="container1">
+<button class="tablink" onclick="openC('Company', this, '#007bff')" id="defaultOpen">COMPANY</button>
+<button class="tablink" onclick="openC('Individual', this, '#007bff')">INDIVIDUAL</button>
+<div id="Company" class="tabcontent">
+<div class="container2">
+            <div class="box">
+				<p>Company Name</p>				
+			</div>
+			<div class="box">
+				<p>Company Location</p>				
+			</div>
+			<div class="box">
+				<p>Company Status</p>				
+			</div>
+			<div class="box">
+				<p> Company Number</p>				
+			</div>
+</div>
+</div>
+
+<div id="Individual" class="tabcontent">
+<div class="container2">
+ <div class="box">
+				<p> Individual Location</p>				
+			</div>
+			<div class="box">
+				<p> Individual Email</p>				
+			</div>
+			<div class="box">
+				<p> Education history</p>				
+			</div>
+			<div class="box">
+				<p> Criminal records</p>				
+			</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<br><br><hr>
+<br>
+<section id="about">
+ <div class="containe0">
+			<aside id="sidebar">      
+            <img src="https://d1mgel6vch4ba4.cloudfront.net/images/right_time.png">
+            </aside>
+            <article id="main-col">
+                <div class="dark">
+					<h4 style="color:#007fbb;">We make your decision making process easier with our cutting edge technologies! So Join Our Hands</h4><br>
+                    <p>We are the No.1 leading provider of commercial and insight on business. The team have one goal - to be your sole resource for critical
+					information. We gather data from a number of official sources and third parties to give you all the information you need, in one easy to use our website</p>
+				</div>
+            </article>
+        </div>
+</section>
+
+<section id="team">
+	<div class="container0">
+	<h2 style="text-align:center;">Our Team</h2>
+   <hr width="70" color="blue">
+   <div class="box">
+   <div class="card">
+   <div class="card-inner">
+   <div class="card-front">
+   <img src="images/p.jpeg" alt="CHRO">
+   <h5>Praveen Hegde</h5>
+   <ul class="social mb-0 list-inline mt-3">
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-youtube"></i></a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="box">
+   <div class="card">
+   <div class="card-inner">
+   <div class="card-front">
+   <img src="images/a.jpeg" alt="Akhilesh">
+   <h5>Akhilesh Dodla</h5>
+   <ul class="social mb-0 list-inline mt-3">
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-youtube"></i></a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="box">
+   <div class="card">
+   <div class="card-inner">
+   <div class="card-front">
+   <img src="images/r.jpeg" alt="Rutik">
+   <h5>S.R.Rutik</h5>
+   <ul class="social mb-0 list-inline mt-3">
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-youtube"></i></a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="box">
+   <div class="card">
+   <div class="card-inner">
+   <div class="card-front">
+   <img src="images/n.png" alt="Neeraj">
+   <h5>Neeraj Kumar</h5>
+   <ul class="social mb-0 list-inline mt-3">
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-youtube"></i></a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="box">
+   <div class="card">
+   <div class="card-inner">
+   <div class="card-front">
+   <img src="images/s.jpg" alt="Sravya">
+   <h5>Lavu Sravya</h5>
+   <ul class="social mb-0 list-inline mt-3">
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-youtube"></i></a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="box">
+   <div class="card">
+   <div class="card-inner">
+   <div class="card-front">
+   <img src="images/l.jpeg" alt="Lakshman">
+   <h5>Sai Lakshman Kinthali</h5>
+   <ul class="social mb-0 list-inline mt-3">
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+   <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-youtube"></i></a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+</section>
+
+
+<section id="contact">
+<div class="container">
+ <h2 class="decorated" style="text-align:center;"><span>Contact Us</span></h2>
+					
+					<aside class="contactInfo">      
+					<div class="box">
+					<div class="icon1"><i class="fa fa-map-marker"></i></div>
+                    <div class="text1">
+                        <h4>Address</h4>
+                        <p>Zensar Technologies, Pune</p>
+                    </div>
+					</div>
+					<div class="box">
+					<div class="icon1"><i class="fa fa-phone"></i></div>
+                    <div class="text1">
+                        <h4>Phone Number</h4>
+                        <p>+9120 66074000</p>
+                    </div>
+					</div>
+					<div class="box">
+					<div class="icon1"><i class="fa fa-envelope-o"></i></div>
+                    <div class="text1">
+                        <h4>Email</h4>
+                        <p>connect@zensar.com</p>
+                    </div>
+					</div>
+            </aside>
+            <article class="contactForm">
+                <form>
+                   
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Enter Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Enter your email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type Your Message...</span>
+                    </div>
+                    <div class="inputBox" style="text-align:center">
+                        <input type="submit" name="" value="Send Message">
+                    </div>
+                </form>
+            </article>
+					
+		
+			</div>
+</section>
+<footer>
+        <p>All Rights Reserved &copy; Zensar Technologies 2021</p>
+		 <a href="https://play.google.com/store/apps/details?id=com.zensar.zensarapp&utm_source=ZensarWebsite&utm_medium=banner&utm_term=ZensarWebsite_App&utm_campaign=ZensarWebsite_AndroidApp" target="_blank"><img src="https://www.zensar.com/themes/custom/new_zensar_d9/images/google-app.png" alt="Zensar Android app" width="125" height="50"></a>
+		 <a href="https://itunes.apple.com/us/app/zensar/id1107849060?mt=8&utm_source=ZensarWebsite&utm_medium=banner&utm_term=ZensarWebsite_App&utm_campaign=ZensarWebsite_AppleApp" target="_blank"><img src="https://www.zensar.com/themes/custom/new_zensar_d9/images/dw-app.png" alt="Zensar Apple app" width="125" height="50"></a>
+</footer>
+<script>
+function openC(cName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(cName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
